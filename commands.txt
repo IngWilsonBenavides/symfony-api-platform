@@ -20,3 +20,15 @@ sudo apt install build-essential
 
 curl -sSf https://moncho.github.io/dry/dryup.sh | sudo sh
 sudo chmod 755 /usr/local/bin/dry
+
+14) en la carpeta de rabbit
+make run
+
+en un navegador vamos a  localhost:15672
+user:guess     passwd:guess
+dry       3
+make restart
+
+17) en carpeta api
+
+make ssh-be
