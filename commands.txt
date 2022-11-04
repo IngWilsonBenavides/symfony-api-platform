@@ -1,0 +1,17 @@
+#para ejecutar docker sin necesidad de utilizar sudo
+sudo systemctl enable --now docker
+
+sudo usermod -aG docker wilsonbenavides
+
+#repositorio del curso
+https://github.com/JuanWilde/symfony-api-platform
+
+mkdir symfony-api-platform
+cd symfony-api-platform
+
+mkdir api
+mkdir rabbitmq
+
+sudo apt install make
+sudo apt install build-essential 
+
