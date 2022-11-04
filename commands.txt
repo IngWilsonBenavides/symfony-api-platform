@@ -15,3 +15,8 @@ mkdir rabbitmq
 sudo apt install make
 sudo apt install build-essential 
 
+#dentro de api ejecutamos
+12) make run
+
+curl -sSf https://moncho.github.io/dry/dryup.sh | sudo sh
+sudo chmod 755 /usr/local/bin/dry
