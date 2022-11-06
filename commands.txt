@@ -31,4 +31,44 @@ make restart
 
 17) en carpeta api
 
+#para ingresar a la carpeta back end dentro del contenedor
 make ssh-be
+
+ls -la
+#tenemos la misma configuracion que en el proyecto local
+
+composer create-project symfony/skeleton project ^5.1.0 
+
+mv project/* .
+yes
+
+ir al navegador
+localhost:250
+
+composer update
+composer validate
+
+20) en la carpeta api
+make ssh-be
+composer require monolog doctrine phpunit
+
+composer require --dev browser-kit maker
+composer require api
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
