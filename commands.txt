@@ -55,7 +55,8 @@ composer require monolog doctrine phpunit
 composer require --dev browser-kit maker
 composer require api
 
-
+22) en api
+composer require symfony/security-core symfony/uid
 
 
 
